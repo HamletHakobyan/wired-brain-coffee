@@ -12,7 +12,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: cimg/ruby:3.1.0-node-browsers
+      - image: cimg/ruby:2.4.1-node-browsers
     executor: ruby/default
     steps:
       - checkout
